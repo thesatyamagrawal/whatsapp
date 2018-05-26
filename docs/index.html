@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Whatsapp Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+ 
+</head>
+
+<body>
+
+  <div class="container-fluid app">
+    <div class="row app-one">
+
+      <div class="col-sm-4 side" id="not_profile_content">
+        <div class="side-one">
+          <div class="row heading">
+            <div class="col-sm-3 col-xs-3 heading-avatar" id="profile_id">
+              <div class="heading-avatar-icon">
+          <img src="Images/portfoliopic1.jpeg" class="">
+              </div>
+            </div>
+            <div class="col-sm-1 col-xs-1  heading-dot  pull-right">
+              <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
+            </div>
+             <div class="col-sm-1 col-xs-1  heading-refresh  pull-right">
+             <span class="glyphicon glyphicon-refresh fa-2x  pull-right" aria-hidden="true"></span>
+            </div>
+            <div class="col-sm-2 col-xs-2 pull-right">
+              <i class="fa fa-comments fa-2x  pull-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="row searchBox">
+            <div class="col-sm-12 searchBox-inner">
+              <div class="form-group has-feedback">
+                <input id="searchText" type="text" class="form-control" name="searchText" placeholder="Search">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row sideBar">
+            <div class="row sideBar-body" id="small_screen_id" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                  <img src="Images/pic1.jpg" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main" id="0" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Hritik Roshan
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">09:18
+                  </span>
+                  </div>
+                </div>
+
+                <p class="chat-wrapper">Where are u krish?
+                                                </p>
+
+
+              </div>
+            </div>
+
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+              <img src="Images/r.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="1" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Govinda
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">16:12
+                  </span>
+                  </div>
+                 </div>
+                <div class="chat-wrapper">
+                                            How you doin?
+
+                                                   <span class="unread_message" >1</span>
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                        <img src="Images/a.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="2" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Anand
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">12:18
+                  </span>
+                  </div>
+                </div>
+                  <div class="chat-wrapper">
+                                          Jindago lambi nahi badi honi chahiye
+
+                                                   <span class="unread_message">1</span>
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+               <img src="Images/s.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="3" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Rohan
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:20
+                  </span>
+                  </div>
+                </div>
+                <div class="chat-wrapper">
+                                        How are you?
+
+                                                   <span class="unread_message">1</span>
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                 <img src="Images/dp4.jpg" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="4" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Divyansh
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">11:18
+                  </span>
+                  </div>
+                </div>
+                <div class="chat-wrapper">
+                                         broooo
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+     <img src="Images/dp8.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="5" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Tina
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">2:18
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                        All good!!
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                   <img src="Images/m.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="6" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Manu
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">20:20
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                        Please send your no
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                      <img src="Images/s.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="7" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Siddharth
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:11
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                        There!
+
+                                                
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                   <img src="Images/a.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="8" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Gyan
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">1:18
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                    Ok
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body" onclick="small_screen_function()">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                      <img src="Images/r.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="9" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Babumoshay
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:18
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                       I heard
+                                                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sidebar End -->
+        </div>
+        <div class="side-two">
+
+          <!-- Heading -->
+          <div class="row newMessage-heading">
+            <div class="row newMessage-main">
+              <div class="col-sm-2 col-xs-2 newMessage-back">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+              </div>
+              <div class="col-sm-10 col-xs-10 newMessage-title">
+                New Chat
+              </div>
+            </div>
+          </div>
+          <!-- Heading End -->
+
+          <!-- ComposeBox -->
+          <div class="row composeBox">
+            <div class="col-sm-12 composeBox-inner">
+              <div class="form-group has-feedback">
+                <input id="composeText" type="text" class="form-control" name="searchText" placeholder="Search People">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+              </div>
+            </div>
+          </div>
+          <!-- ComposeBox End -->
+
+          <!-- sideBar -->
+         <div class="row compose-sideBar">
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                  <img src="Images/pic1.jpg" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main" id="0" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Hritik Roshan
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:18
+                  </span>
+                  </div>
+                </div>
+
+                <p class="chat-wrapper">
+                                                   Hey, have you finished up the edwisor project?
+                                                </p>
+
+
+              </div>
+            </div>
+
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+              <img src="Images/r.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="1" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Govinda
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">16:12
+                  </span>
+                  </div>
+                 </div>
+                <div class="chat-wrapper">How you doin?
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                        <img src="Images/a.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="2" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Anand
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">12:18
+                  </span>
+                  </div>
+                </div>
+                  <div class="chat-wrapper">
+                                          Jindago lambi nahi badi honi chahiye
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+               <img src="Images/s.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main unread_message_div"  id="3" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Rohan
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:20
+                  </span>
+                  </div>
+                </div>
+                <div class="chat-wrapper">
+                                        How are you?
+
+                                                 
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                 <img src="Images/dp4.jpg" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="4" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Divyansh
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">11:18
+                  </span>
+                  </div>
+                </div>
+                <div class="chat-wrapper">
+                                         broooo
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+     <img src="Images/dp8.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="5" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Tina
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">2:18
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                       All good!!
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                   <img src="Images/m.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="6" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Manu
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">20:20
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                        Please send your no
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                      <img src="Images/s.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="7" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Siddharth
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:11
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                        There!
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                   <img src="Images/a.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="8" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Gyan
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">1:18
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                    Ok
+                                                </div>
+              </div>
+            </div>
+            <div class="row sideBar-body">
+              <div class="col-sm-3 col-xs-3 sideBar-avatar">
+                <div class="avatar-icon">
+                      <img src="Images/r.png" class="">
+                </div>
+              </div>
+              <div class="col-sm-9 col-xs-9 sideBar-main"  id="9" onclick="test(this.id);">
+                <div class="row">
+                  <div class="col-sm-8 col-xs-8 sideBar-name">
+                    <span class="name-meta">Babumoshay
+                  </span>
+                  </div>
+                  <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
+                    <span class="time-meta pull-right">18:18
+                  </span>
+                  </div>
+                </div>
+                 <div class="chat-wrapper">
+                                      I heard
+                                                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="col-sm-4 side" id="profile_content" style="display: none;overflow-y: scroll">
+<header class="profile_header">
+<div class="profile_text"><span style="width: 55px;padding-left: 10px;" class="glyphicon glyphicon-arrow-left" id="non_profile_id"></span><div class="_profile">Profile</div></div>
+</header>
+<div class="_12fSF"><div class="_1wCju"><div class="_2UkYn"><div class="_1WNtc"><div class="IuYNx"><div style="width: 200px; height: 200px; top: 0px; left: 0px; position: absolute;">            
+<div class="overparent">
+                                   <img src="Images/portfoliopic1.jpeg" class="" style="height: 100%; width: 100%;">
+                                   <div class="middle">
+    <div class="text">Change Profile Picture</div>
+  </div>
+</div>
+</div></div></div><span></span></div></div></div>
+<div class="bg-white">  
+<div class="your_name">
+Name
+</div>
+<div class="name">
+Satyam Agrawal
+<span style="float:right;width:11%;" class="glyphicon glyphicon-edit"></span>
+</div>
+</div>
+<div class="username_pin">This is not your username or pin. This name will be visible to your WhatsApp contacts.</div>
+<div class="bg-white" style="margin-bottom: 10px;">
+<div class="your_name">
+About
+</div>
+<div class="name">
+Not Busy
+<span style="float:right;width:11%;" class="glyphicon glyphicon-edit"></span>
+</div>
+
+</div>
+
+</div>
+
+ <div class="col-sm-8 conversation" id="no_chat_content" style="display: block;">
+<div clas="no_chat_class">
+  <div class="Whatsapp_image">
+ <img src="Images/whatsapp.jpg" class="img-circle">
+  </div>
+<h1 class="Whatsapp_text1">
+
+Keep Your Phone Connected
+</h1>
+<div class="Whatsapp_text2">
+WhatsApp connects to your phone to sync messages. To reduce data usage, connect your phone to Wi-Fi.
+</div>
+</div>
+ </div>
+      <div class="col-sm-8 conversation" id="chat_content" style="display: none">
+        <div class="row heading">
+          <div style="width: 55px;padding-left: 10px;float: left;padding-top: 10px" class="glyphicon glyphicon-arrow-left" id="back_arrow" onclick="small_screen_content()"></div>
+          <div class="col-sm-1 col-md-1 col-xs-2 heading-avatar">
+            <div class="heading-avatar-icon">
+              <img src="" class="" id="imagecoll">
+                 </div>
+          </div>
+          <div class="col-sm-3 col-xs-2 heading-name">
+            <a class="heading-name-meta" id="heading-name-meta-id">
+            </a>
+            <span class="heading-online">Online</span>
+          </div>
+          <div class="col-sm-1 col-xs-1  heading-dot pull-right">
+            <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
+          </div>
+            <div class="col-sm-1 col-xs-1  heading-search pull-right">
+            <span class="glyphicon glyphicon-search fa-2x  pull-right" aria-hidden="true"></span>
+          </div>
+           <div class="col-sm-1 col-xs-1  heading-attach pull-right">
+            <span class="glyphicon glyphicon-paperclip fa-2x  pull-right" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <div class="row message" id="conversation">
+
+          <div class="row message-previous">
+            <div class="col-sm-12 previous">
+              <a onclick="previous(this)" id="ankitjain28" name="20">
+              --Load Old Messages--
+              </a>
+            </div>
+          </div>
+
+          <div class="row message-body">
+            <div class="col-sm-12 message-main-receiver">
+              <div class="receiver">
+                <div class="message-text">
+               
+                </div>
+                <span class="message-time pull-right">
+                  Sun
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row message-body">
+            <div class="col-sm-12 message-main-sender">
+              <div class="sender">
+                <div class="message-text">
+                 
+                </div>
+                <span class="message-time pull-right">
+                  Sun
+                </span>
+              </div>
+            </div>
+          </div>
+           <div class="row message-body">
+            <div class="col-sm-12 message-main-receiver">
+              <div class="receiver">
+                <div class="message-text">
+              
+                </div>
+                <span class="message-time pull-right">
+                  Sun
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row message-body">
+            <div class="col-sm-12 message-main-sender">
+              <div class="sender">
+                <div class="message-text">
+             
+                </div>
+                <span class="message-time pull-right">
+                  Sun
+                </span>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="row message-body">
+            <div class="col-sm-12 message-main-receiver">
+              <div class="receiver">
+                <div class="message-text">
+              
+                </div>
+                <span class="message-time pull-right">
+                  Sun
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row reply">
+          <div class="col-sm-1 col-xs-1 reply-emojis">
+            <i class="fa fa-smile-o fa-2x"></i>
+          </div>
+          <div class="col-sm-9 col-xs-9 reply-main">
+            <textarea class="form-control" rows="1" id="comment"></textarea>
+          </div>
+          <div class="col-sm-1 col-xs-1 reply-recording">
+            <i class="fa fa-microphone fa-2x" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-1 col-xs-1 reply-send">
+            <i class="fa fa-send fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+        </div>
+</div>
+
+  </div>
+
+ 
+</body>
+
+</html>
